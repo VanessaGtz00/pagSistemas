@@ -1,0 +1,43 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin-top: 0;
+}
+header {
+    margin-bottom: 0; /* Asegúrate de que no haya margen inferior en el encabezado */
+    padding-top: 2rem; /* Ajusta el padding superior según sea necesario */
+    padding-bottom: 0.5rem; /* Ajusta el padding inferior según sea necesario */
+}
+
+/* Hero Section */
+.hero {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Parallax effect */
+    padding-top: 0; /* Elimina cualquier padding superior */
+    margin-top: 0; /* Elimina cualquier margen superior */
+}
+
+/* Animations */
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Styles */
+form .form-control {
+    margin-bottom: 1rem;
+}
+
+form button {
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+form button:hover {
+    background-color: #343a40;
+    transform: scale(1.05);
+}
